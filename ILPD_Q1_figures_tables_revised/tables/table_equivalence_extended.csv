@@ -1,0 +1,5 @@
+comparison,dAUC,CI95_NB,p_diff,smallest_margin
+LR − XGB (extended search),0.0339,"[-0.005, +0.073]",0.0839,0.0659
+LR − LGBM (extended search),0.0292,"[-0.004, +0.062]",0.0771,0.0562
+LR − CAT (extended search),0.0109,"[-0.016, +0.037]",0.3961,0.0327
+LR − SVM (extended search),0.0621,"[+0.003, +0.122]",0.0419,0.1109

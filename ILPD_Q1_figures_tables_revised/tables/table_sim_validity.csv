@@ -1,0 +1,3 @@
+scenario,population_AUC_truth,LR_true_AUC,LR_nestedCV_bias,LR_single_fold_SD_error,LR_95CI_coverage,ET_true_AUC,ET_nestedCV_bias,ET_single_fold_SD_error,ET_95CI_coverage,XGB_true_AUC,XGB_nestedCV_bias,XGB_single_fold_SD_error,XGB_95CI_coverage
+S1,0.745,0.738,0.003,0.047,1.0,0.732,0.003,0.046,1.0,0.72,0.004,0.046,0.98
+S2,0.747,0.706,0.0,0.051,0.98,0.715,0.001,0.05,0.98,0.708,-0.003,0.051,0.98

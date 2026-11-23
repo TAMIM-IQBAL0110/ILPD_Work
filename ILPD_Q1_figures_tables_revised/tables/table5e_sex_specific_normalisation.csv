@@ -1,0 +1,3 @@
+model,AUC_all,AUC_female,AUC_male
+"LR, pooled laboratory values (primary)",0.739,0.634,0.764
+"LR, sex-specific z-scored laboratory values",0.749,0.649,0.776

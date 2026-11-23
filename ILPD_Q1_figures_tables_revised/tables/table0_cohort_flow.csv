@@ -1,0 +1,4 @@
+Step,n,liver patients,non-liver
+Records in ILPD file,583,416,167
+After removing records with missing A/G ratio,579,414,165
+After removing exact duplicates,566,404,162

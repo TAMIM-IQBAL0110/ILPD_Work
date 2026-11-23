@@ -1,0 +1,12 @@
+test,chi2,p,OR_interaction,p_Holm
+"all 9 sex × marker interactions (LRT, df = 9)",5.6196,0.7773,,
+"model score × sex (LRT, df = 1); slope female 1.20, male 2.12",3.1673,0.0751,,
+sex × TB,0.0004,0.9845,1.0126,1.0
+sex × DB,0.0043,0.9479,0.9586,1.0
+sex × Alkphos,0.065,0.7987,0.921,1.0
+sex × Sgpt,0.6384,0.4243,1.3219,1.0
+sex × Sgot,0.4961,0.4812,1.2763,1.0
+sex × Age,3.1737,0.0748,1.4973,0.6735
+sex × TP,1.3503,0.2452,0.7679,1.0
+sex × ALB,0.6999,0.4028,0.8232,1.0
+sex × AG_ratio,0.0792,0.7784,0.927,1.0

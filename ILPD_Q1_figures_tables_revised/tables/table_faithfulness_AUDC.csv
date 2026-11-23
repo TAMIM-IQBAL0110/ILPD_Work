@@ -1,0 +1,17 @@
+model,removal,AUDC_SHAP_top,comparator,AUDC_comparator,diff_comparator_minus_SHAP,CI95,SHAP_better_than_comparator
+ET,"median replacement, no retraining",0.698,Permutation-top first,0.7046,0.0066,"[-0.017, +0.030]",False
+ET,"median replacement, no retraining",0.698,Univariate-AUC-top first,0.7004,0.0024,"[-0.016, +0.021]",False
+ET,"median replacement, no retraining",0.698,random,0.7354,0.0374,"[+0.012, +0.062]",True
+ET,"median replacement, no retraining",0.698,SHAP-bottom first,0.748,0.0499,"[+0.018, +0.082]",True
+ET,remove and retrain (ROAR),0.6964,Permutation-top first,0.7055,0.009,"[-0.010, +0.028]",False
+ET,remove and retrain (ROAR),0.6964,Univariate-AUC-top first,0.7004,0.004,"[-0.009, +0.017]",False
+ET,remove and retrain (ROAR),0.6964,random,0.7381,0.0417,"[+0.016, +0.067]",True
+ET,remove and retrain (ROAR),0.6964,SHAP-bottom first,0.7507,0.0542,"[+0.017, +0.091]",True
+LR,"median replacement, no retraining",0.6804,Permutation-top first,0.6642,-0.0163,"[-0.066, +0.033]",False
+LR,"median replacement, no retraining",0.6804,Univariate-AUC-top first,0.6958,0.0154,"[-0.037, +0.068]",False
+LR,"median replacement, no retraining",0.6804,random,0.7286,0.0482,"[+0.009, +0.087]",True
+LR,"median replacement, no retraining",0.6804,SHAP-bottom first,0.7463,0.0659,"[+0.007, +0.125]",True
+LR,remove and retrain (ROAR),0.713,Permutation-top first,0.7112,-0.0018,"[-0.022, +0.019]",False
+LR,remove and retrain (ROAR),0.713,Univariate-AUC-top first,0.7059,-0.0071,"[-0.032, +0.018]",False
+LR,remove and retrain (ROAR),0.713,random,0.7407,0.0277,"[-0.005, +0.061]",False
+LR,remove and retrain (ROAR),0.713,SHAP-bottom first,0.7473,0.0343,"[-0.004, +0.072]",False

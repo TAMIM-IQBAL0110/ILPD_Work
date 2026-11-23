@@ -1,0 +1,29 @@
+model,scenario,Acc,AUC,Sens,Spec
+LR,"A. correct: de-duplicated, in-fold scaling, no resampling",0.73,0.751,0.911,0.278
+LR,B. correct: in-fold SMOTE-NC (training folds only),0.647,0.746,0.617,0.722
+LR,C. correct: in-fold SMOTE-ENN (training folds only),0.618,0.752,0.517,0.868
+LR,"D. LEAK: SMOTE on whole data, then CV",0.709,0.772,0.607,0.811
+LR,"E. LEAK: SMOTE-ENN on whole data, then CV",0.907,0.947,0.839,0.946
+LR,F. LEAK: 13 exact duplicates retained,0.721,0.751,0.907,0.254
+LR,G. LEAK: duplicates retained + SMOTE-ENN on whole data,0.904,0.942,0.814,0.955
+SVM,"A. correct: de-duplicated, in-fold scaling, no resampling",0.713,0.667,0.978,0.053
+SVM,B. correct: in-fold SMOTE-NC (training folds only),0.669,0.735,0.665,0.679
+SVM,C. correct: in-fold SMOTE-ENN (training folds only),0.637,0.724,0.557,0.838
+SVM,"D. LEAK: SMOTE on whole data, then CV",0.742,0.807,0.646,0.838
+SVM,"E. LEAK: SMOTE-ENN on whole data, then CV",0.936,0.962,0.863,0.978
+SVM,F. LEAK: 13 exact duplicates retained,0.716,0.657,0.978,0.057
+SVM,G. LEAK: duplicates retained + SMOTE-ENN on whole data,0.937,0.965,0.874,0.973
+RF,"A. correct: de-duplicated, in-fold scaling, no resampling",0.692,0.728,0.86,0.274
+RF,B. correct: in-fold SMOTE-NC (training folds only),0.691,0.739,0.773,0.486
+RF,C. correct: in-fold SMOTE-ENN (training folds only),0.639,0.729,0.57,0.813
+RF,"D. LEAK: SMOTE on whole data, then CV",0.82,0.913,0.763,0.877
+RF,"E. LEAK: SMOTE-ENN on whole data, then CV",0.946,0.98,0.888,0.98
+RF,F. LEAK: 13 exact duplicates retained,0.704,0.746,0.868,0.291
+RF,G. LEAK: duplicates retained + SMOTE-ENN on whole data,0.931,0.978,0.889,0.954
+ET,"A. correct: de-duplicated, in-fold scaling, no resampling",0.713,0.751,0.882,0.29
+ET,B. correct: in-fold SMOTE-NC (training folds only),0.701,0.747,0.79,0.48
+ET,C. correct: in-fold SMOTE-ENN (training folds only),0.642,0.729,0.572,0.817
+ET,"D. LEAK: SMOTE on whole data, then CV",0.852,0.945,0.804,0.9
+ET,"E. LEAK: SMOTE-ENN on whole data, then CV",0.951,0.99,0.89,0.986
+ET,F. LEAK: 13 exact duplicates retained,0.726,0.773,0.885,0.329
+ET,G. LEAK: duplicates retained + SMOTE-ENN on whole data,0.95,0.988,0.896,0.98

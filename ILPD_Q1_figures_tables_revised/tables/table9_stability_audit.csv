@@ -1,0 +1,16 @@
+Level,Metric,Value,Reading
+Performance · data partition,SD of hold-out AUC over 200 random 80/20 splits (ET),0.039,"95 % of single splits fall in [0.68, 0.83]; original split at 93.0th percentile"
+Performance · nested CV,SD of outer-fold AUC (ET / LR),0.055 / 0.052,fold-to-fold variability that a single split hides
+Tuning · landscape,mean SD of inner AUC across candidates (ET),0.004,small ⇒ result insensitive to hyper-parameters
+Tuning · optimism,inner − outer AUC (ET),-0.001,selection bias removed by nesting
+Decision threshold,SD of chosen threshold across folds (ET),0.021,range 0.66–0.74
+Explanation · data perturbation,mean pairwise Spearman of feature ranks (ET),0.764,Kendall W = 0.765; top-3 Jaccard = 0.52
+Explanation · milder perturbation,"mean pairwise Spearman, 80 % subsamples (ET)",0.920,Kendall W = 0.920; top-3 Jaccard = 0.64
+Explanation · null reference,"mean pairwise Spearman, label-permuted (ET / LR)",0.041 / 0.094,what 'no signal' looks like for the method
+Explanation · benchmark,"mean pairwise Spearman, bootstrap (LR)",0.846,Kendall W = 0.846; top-3 Jaccard = 0.61
+Explanation · family level,"mean pairwise Spearman of 6 clinical families, bootstrap (ET)",0.889,"Kendall W = 0.889; 'Bilirubin (TB, DB)' ranked first in 94% of replicates"
+Explanation · algorithmic seed,"mean pairwise Spearman of feature ranks (ET, large ensemble / 50 trees)",0.984 / 0.954,Kendall W = 0.984 / 0.954; near-guaranteed for a large fixed-hyper-parameter ensemble
+Explanation · direction,lowest sign-agreement over features,0.71,share of replicates with the majority sign
+Explanation · local,median per-patient cosine similarity (ET),0.811,10th percentile 0.58
+Explanation · model family,mean pairwise Spearman across 6 learners (SHAP),0.680,Kendall W = 0.733
+Explanation · method,SHAP vs permutation (Spearman),0.927,two independent importance definitions

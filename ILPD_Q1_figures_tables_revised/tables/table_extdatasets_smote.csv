@@ -1,0 +1,11 @@
+dataset,learner,dAUC_smote_minus_none,CI95,p,dBrier_smote_minus_none
+Pima diabetes,LR,-0.0015,"[-0.004, +0.001]",0.2478,0.0115
+Pima diabetes,ET,-0.0005,"[-0.008, +0.007]",0.8912,0.0122
+SAheart (CHD),LR,-0.0017,"[-0.016, +0.013]",0.798,0.016
+SAheart (CHD),ET,-0.0054,"[-0.021, +0.010]",0.4419,0.0137
+Cleveland heart,LR,0.0016,"[-0.015, +0.019]",0.8327,0.0047
+Cleveland heart,ET,-0.0001,"[-0.006, +0.005]",0.9728,-0.0027
+BUPA liver,LR,-0.0039,"[-0.022, +0.014]",0.6363,0.0011
+BUPA liver,ET,-0.0036,"[-0.012, +0.004]",0.34,-0.0001
+Haberman survival,LR,0.0027,"[-0.034, +0.039]",0.8718,0.0474
+Haberman survival,ET,-0.0058,"[-0.036, +0.024]",0.6692,0.046

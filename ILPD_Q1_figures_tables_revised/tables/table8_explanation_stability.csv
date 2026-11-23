@@ -1,0 +1,9 @@
+model,perturbation,replicates,mean_pairwise_Spearman,p05_Spearman,Kendall_W,top3_Jaccard,min_direction_agreement,median_local_cosine,p10_local_cosine,median_top1_agreement,family_level_Spearman,family_level_W,top_family_modal_freq
+ET,bootstrap,200,0.764,0.503,0.765,0.517,0.71,0.811,0.584,0.555,0.889,0.889,0.935
+ET,seed,200,0.984,0.952,0.984,0.808,1.0,0.991,0.976,0.972,0.999,0.999,1.0
+ET,subsample,200,0.92,0.83,0.92,0.641,0.66,0.924,0.825,0.715,0.947,0.947,1.0
+ET,permuted,100,0.041,-0.539,0.05,0.211,0.0,0.007,-0.002,0.35,0.729,0.732,0.8
+ET,seed50,100,0.954,0.891,0.954,0.694,0.99,0.963,0.902,0.815,0.987,0.987,1.0
+LR,bootstrap,200,0.846,0.648,0.846,0.61,0.67,0.958,0.925,0.772,0.86,0.861,0.62
+LR,subsample,200,0.939,0.867,0.939,0.826,0.77,0.99,0.981,0.96,0.903,0.903,0.69
+LR,permuted,100,0.094,-0.479,0.103,0.227,0.51,0.004,-0.0,0.4,0.292,0.3,0.3

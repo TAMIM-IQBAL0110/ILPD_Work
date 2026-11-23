@@ -1,0 +1,5 @@
+scenario,cmp,mean_true_dAUC,mean_est_dAUC,CI_coverage_of_true_dAUC,pct_significant,pct_TOST_equiv_0p03,pct_true_within_0p03,pct_TOST_equiv_0p05,pct_true_within_0p05
+S1,LR − ET,0.007,0.007,1.0,0.02,0.42,1.0,0.8,1.0
+S1,LR − XGB,0.018,0.018,1.0,0.02,0.08,0.9,0.38,1.0
+S2,LR − ET,-0.009,-0.009,1.0,0.02,0.24,1.0,0.7,1.0
+S2,LR − XGB,-0.002,0.002,0.96,0.02,0.04,1.0,0.28,1.0

@@ -1,0 +1,7 @@
+,n_features,AUC_drop,SE,drop_per_feature,random_same_size_reference,excess_over_random,SHAP_share_pct
+"Bilirubin (TB, DB)",2.0,0.1006,0.006,0.0503,0.0222,0.0784,38.584
+"Transaminases (Sgpt, Sgot)",2.0,0.0624,0.0067,0.0312,0.0222,0.0403,26.6076
+Alkphos,1.0,0.0169,0.0039,0.0169,0.0108,0.0061,10.8524
+Age,1.0,0.0086,0.0038,0.0086,0.0108,-0.0023,7.3046
+Gender,1.0,0.0001,0.0021,0.0001,0.0108,-0.0107,3.8135
+"Protein/albumin (TP, ALB, AG_ratio)",3.0,-0.0,0.0046,-0.0,0.0412,-0.0412,12.8379
